@@ -28,6 +28,7 @@ namespace Uyg16
             turkceNet = (turkceDogru - (turkceYanlis / 4));
 
             txtTürkceN.Text = turkceNet.ToString();
+
             matDogru = Convert.ToDouble(txtMatD.Text);
             matYanlis = Convert.ToDouble(txtMatY.Text);
             matNet = (matDogru - (matYanlis / 4));

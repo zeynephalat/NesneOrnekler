@@ -19,8 +19,8 @@ namespace SS_50
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int sicaklik;
-            sicaklik = Convert.ToInt32(textBox1.Text);
+            double sicaklik;
+            sicaklik = Convert.ToDouble(textBox1.Text);
 
             if (sicaklik<10)
             {
