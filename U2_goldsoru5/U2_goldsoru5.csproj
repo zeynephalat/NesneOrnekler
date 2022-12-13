@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0854A358-51F8-4A4A-BDDF-E5753E1B0954}</ProjectGuid>
+    <ProjectGuid>{1BCE357B-6BEE-41F2-B0C3-0E6AB8715AE3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>U2_goldsoru4</RootNamespace>
-    <AssemblyName>U2_goldsoru4</AssemblyName>
+    <RootNamespace>U2_goldsoru5</RootNamespace>
+    <AssemblyName>U2_goldsoru5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

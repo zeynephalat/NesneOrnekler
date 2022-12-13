@@ -50,10 +50,18 @@ namespace U2_Goldsoru33
             try
             {
 
+                
+                progressBar1.ForeColor = Color.Red;
+                progressBar1.ForeColor = Color.Green;
+                progressBar1.ForeColor = Color.Purple;
+                progressBar1.ForeColor = Color.Crimson;
+
+
                 int not1, not2, not3, ortalama;
                 not1 = Convert.ToInt16(txtnot1.Text);
                 not2 = Convert.ToInt16(txtnot2.Text);
                 not3 = Convert.ToInt16(txtnot3.Text);
+
                 if (not1 > 100 || not1 < 0 || not2 > 100 ||not2 < 0 || not3 > 100 || not3 < 0)
                 {
                     MessageBox.Show("geçerli bir not");
@@ -63,26 +71,29 @@ namespace U2_Goldsoru33
                     ortalama = (not1 + not2 + not3);
                     label5.Text = ortalama.ToString();
                 }
-
-
-
+                not1 = Convert.ToInt16(txtnot1.Text);
+              
                 ortalama = (not1 + not2 + not3) / 3;
                 label5.Text = ortalama.ToString();
 
                 if (rbmat.Checked == true)
                 {
+                    progressBar1.Value = ortalama;
                     label1.Text = ("matematik");
                 }
                 else if (rbtur.Checked == true)
                 {
+                    progressBar2.Value = ortalama;
                     label1.Text = ("türkçe");
                 }
                 else if (rbnesne.Checked == true)
                 {
+                    progressBar3.Value = ortalama;
                     label1.Text = ("nesne tabanlı programlama");
                 }
                 else
                 {
+                    progressBar4.Value = ortalama;
                     label1.Text = ("robotik");
                 }
             }
