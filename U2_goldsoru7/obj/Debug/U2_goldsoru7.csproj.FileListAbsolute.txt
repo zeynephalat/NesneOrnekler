@@ -7,3 +7,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_goldsoru7\obj\Debug\U2_goldsoru7.cspro
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_goldsoru7\obj\Debug\U2_goldsoru7.csproj.CoreCompileInputs.cache
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_goldsoru7\obj\Debug\U2_goldsoru7.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_goldsoru7\obj\Debug\U2_goldsoru7.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_goldsoru7\obj\Debug\U2_goldsoru7.csproj.AssemblyReference.cache
