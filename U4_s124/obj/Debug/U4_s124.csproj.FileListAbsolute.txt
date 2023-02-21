@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\bin\Debug\U4_s124.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\bin\Debug\U4_s124.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\bin\Debug\U4_s124.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_s124\obj\Debug\U4_s124.pdb

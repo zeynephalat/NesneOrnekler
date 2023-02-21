@@ -1,0 +1,10 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\bin\Debug\U4_UYG_123.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\bin\Debug\U4_UYG_123.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\bin\Debug\U4_UYG_123.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.csproj.AssemblyReference.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_UYG_123\obj\Debug\U4_UYG_123.pdb
