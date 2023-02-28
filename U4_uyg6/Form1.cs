@@ -18,7 +18,6 @@ namespace U4_uyg6
         }
         string[] isimler = new string[3];
        int[,] notlar = new int[3,4];
-
         int index = 0;
         private void button1_Click(object sender, EventArgs e)
         {

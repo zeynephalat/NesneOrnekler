@@ -10,12 +10,17 @@ namespace U3_S_100
     {
         public string Ad { get; set; }
         public string Soyad { get; set; }
-       }
-       public class Ogretmen:OkulPersoneli
-    { 
+    }
+    class Ogretmen : OkulPersoneli
+    {
+
         public string Brans { get; set; }
-}
+    }
     class Program
-    { 
-        static void Main(string[]args)
-        { 
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
