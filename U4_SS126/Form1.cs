@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace U4_s124
+namespace U4_SS126
 {
     public partial class Form1 : Form
     {
@@ -16,7 +16,7 @@ namespace U4_s124
         {
             InitializeComponent();
         }
-        string[]isimler = new string[5];
+        string[] isimler = new string[5];
         int index = 0;
         private void button1_Click(object sender, EventArgs e)
         {
@@ -33,12 +33,19 @@ namespace U4_s124
 
         private void button2_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < isimler.Length; i++)
+            try
             {
-                listBox1.Items.Add(isimler[i]);
+                foreach (var isim in isimler)
+                {
+                    listBox1.Items.Add(isim);
+                   
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("lütfen tam yazınız");
+                throw;
             }
         }
-
- 
-    }
+    }   
 }

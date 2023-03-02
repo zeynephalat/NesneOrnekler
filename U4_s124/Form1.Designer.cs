@@ -44,6 +44,7 @@ namespace U4_s124
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
+            
             // 
             // button1
             // 
@@ -61,6 +62,7 @@ namespace U4_s124
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
+            
             // 
             // button2
             // 
@@ -79,6 +81,7 @@ namespace U4_s124
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 4;
+            
             // 
             // Form1
             // 
