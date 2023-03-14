@@ -17,7 +17,7 @@ namespace U5_Uyg3
             InitializeComponent();
         }
 
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             decimal tabanFiyat = 500;
@@ -58,8 +58,41 @@ namespace U5_Uyg3
             {
                 ramFiyat = 45;
             }
+
             tabanFiyat += ramFiyat;
             MessageBox.Show(string.Format("toplam fiyat = {0:c}", tabanFiyat));
+
+            decimal sabitDiskFiyat = 0;
+            if (radioButton9.Checked)
+            {
+                sabitDiskFiyat = 600;
+            }
+            else if (radioButton10.Checked)
+            {
+                sabitDiskFiyat = 450;
+            }
+            else if (radioButton11.Checked)
+            {
+                sabitDiskFiyat = 300;
+            }
+            tabanFiyat += sabitDiskFiyat;
+            MessageBox.Show(string.Format("toplam fiyat={0:C}", tabanFiyat));
+
+            decimal ekdonanimfiyat = 0;
+            if (checkBox1.Checked)
+            {
+                ekdonanimfiyat = 1000;
+            }
+            else if (checkBox2.Checked)
+            {
+                ekdonanimfiyat = 500;
+            }
+            else
+            {
+                ekdonanimfiyat = 300;
+            }
+            tabanFiyat += ekdonanimfiyat;
+            MessageBox.Show(string.Format("toplam fiyat={0:C}", tabanFiyat));
         }
     }
 }
