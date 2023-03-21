@@ -16,5 +16,41 @@ namespace U5_Uyg9
         {
             InitializeComponent();
         }
+
+
+        private void kesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Cut();
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void kopyalaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Copy();
+        }
+
+        private void yapıştırToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Paste();
+        }
+
+        private void kESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Cut();
+        }
+
+        private void kOPYALAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Copy();
+        }
+
+        private void yAPIŞTIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Cut();
+        }
     }
 }

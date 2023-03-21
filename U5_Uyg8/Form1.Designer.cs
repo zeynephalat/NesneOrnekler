@@ -71,28 +71,30 @@ namespace U5_Uyg8
             // 
             this.yENİToolStripMenuItem.Name = "yENİToolStripMenuItem";
             this.yENİToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.yENİToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.yENİToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yENİToolStripMenuItem.Text = "YENİ";
+          
             // 
             // aÇToolStripMenuItem
             // 
             this.aÇToolStripMenuItem.Name = "aÇToolStripMenuItem";
             this.aÇToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.aÇToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.aÇToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aÇToolStripMenuItem.Text = "AÇ";
+           
             // 
             // kAYDETToolStripMenuItem
             // 
             this.kAYDETToolStripMenuItem.Name = "kAYDETToolStripMenuItem";
             this.kAYDETToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.kAYDETToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.kAYDETToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kAYDETToolStripMenuItem.Text = "KAYDET";
             // 
             // yAZDIRToolStripMenuItem
             // 
             this.yAZDIRToolStripMenuItem.Name = "yAZDIRToolStripMenuItem";
             this.yAZDIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yAZDIRToolStripMenuItem.Text = "YAZDIR";
             // 
             // toolStripMenuItem2
@@ -109,7 +111,7 @@ namespace U5_Uyg8
             // 
             this.kESToolStripMenuItem.Name = "kESToolStripMenuItem";
             this.kESToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.kESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kESToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.kESToolStripMenuItem.Text = "KES";
             this.kESToolStripMenuItem.Click += new System.EventHandler(this.kESToolStripMenuItem_Click);
             // 
@@ -117,7 +119,7 @@ namespace U5_Uyg8
             // 
             this.kOPYALAToolStripMenuItem.Name = "kOPYALAToolStripMenuItem";
             this.kOPYALAToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.kOPYALAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kOPYALAToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.kOPYALAToolStripMenuItem.Text = "KOPYALA";
             this.kOPYALAToolStripMenuItem.Click += new System.EventHandler(this.kOPYALAToolStripMenuItem_Click);
             // 
@@ -125,7 +127,7 @@ namespace U5_Uyg8
             // 
             this.yAPIŞTIRToolStripMenuItem.Name = "yAPIŞTIRToolStripMenuItem";
             this.yAPIŞTIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.yAPIŞTIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yAPIŞTIRToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.yAPIŞTIRToolStripMenuItem.Text = "YAPIŞTIR";
             this.yAPIŞTIRToolStripMenuItem.Click += new System.EventHandler(this.yAPIŞTIRToolStripMenuItem_Click);
             // 
@@ -142,6 +144,7 @@ namespace U5_Uyg8
             this.richTextBox1.Size = new System.Drawing.Size(841, 485);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
+          
             // 
             // Form1
             // 
