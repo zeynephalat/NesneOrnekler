@@ -20,7 +20,7 @@ namespace U5_Uyg9
 
         private void kesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            richTextBox1.Cut();
+            txtEditor.Cut();
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -30,27 +30,27 @@ namespace U5_Uyg9
 
         private void kopyalaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            richTextBox1.Copy();
+            txtEditor.Copy();
         }
 
         private void yapıştırToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            richTextBox1.Paste();
+            txtEditor.Paste();
         }
 
         private void kESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            richTextBox1.Cut();
+            txtEditor.Cut();
         }
 
         private void kOPYALAToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            richTextBox1.Copy();
+            txtEditor.Copy();
         }
 
         private void yAPIŞTIRToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            richTextBox1.Cut();
+            txtEditor.Cut();
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
@@ -58,7 +58,29 @@ namespace U5_Uyg9
             DialogResult cevap = MessageBox.Show("Bu dosyayı silmek istediğinize emin misiniz?", "dosya sil", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (cevap==DialogResult.Yes)
             {
-                MessageBox.Show("çıkıs yapıldı");
+               Application.Exit ();
+            }
+        }
+
+        private void kAYDETToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "text dosyası|*.txt|tüm dosyalar|*.*";
+            DialogResult cevap = sfd.ShowDialog();
+            if (cevap==DialogResult.OK)
+            {
+                txtEditor.SaveFile(sfd.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        private void aÇToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "text dosyası|*.txt|tüm dosyalar|*.*";
+            DialogResult cevap = ofd.ShowDialog();
+            if (cevap == DialogResult.OK)
+            {
+                txtEditor.SaveFile(ofd.FileName, RichTextBoxStreamType.PlainText);
             }
         }
     }

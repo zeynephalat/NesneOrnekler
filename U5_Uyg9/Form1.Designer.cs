@@ -30,7 +30,7 @@ namespace U5_Uyg9
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtEditor = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.kesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kopyalaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,14 +50,15 @@ namespace U5_Uyg9
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // txtEditor
             // 
-            this.richTextBox1.ContextMenuStrip = this.contextMenuStrip1;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 27);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(841, 485);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.txtEditor.ContextMenuStrip = this.contextMenuStrip1;
+            this.txtEditor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtEditor.Location = new System.Drawing.Point(0, 24);
+            this.txtEditor.Name = "txtEditor";
+            this.txtEditor.Size = new System.Drawing.Size(720, 320);
+            this.txtEditor.TabIndex = 5;
+            this.txtEditor.Text = "";
             // 
             // contextMenuStrip1
             // 
@@ -72,21 +73,21 @@ namespace U5_Uyg9
             // kesToolStripMenuItem1
             // 
             this.kesToolStripMenuItem1.Name = "kesToolStripMenuItem1";
-            this.kesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.kesToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
             this.kesToolStripMenuItem1.Text = "kes";
             this.kesToolStripMenuItem1.Click += new System.EventHandler(this.kesToolStripMenuItem1_Click);
             // 
             // kopyalaToolStripMenuItem1
             // 
             this.kopyalaToolStripMenuItem1.Name = "kopyalaToolStripMenuItem1";
-            this.kopyalaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.kopyalaToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
             this.kopyalaToolStripMenuItem1.Text = "kopyala";
             this.kopyalaToolStripMenuItem1.Click += new System.EventHandler(this.kopyalaToolStripMenuItem1_Click);
             // 
             // yapıştırToolStripMenuItem
             // 
             this.yapıştırToolStripMenuItem.Name = "yapıştırToolStripMenuItem";
-            this.yapıştırToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yapıştırToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.yapıştırToolStripMenuItem.Text = "yapıştır";
             this.yapıştırToolStripMenuItem.Click += new System.EventHandler(this.yapıştırToolStripMenuItem_Click);
             // 
@@ -117,28 +118,30 @@ namespace U5_Uyg9
             // 
             this.yENİToolStripMenuItem.Name = "yENİToolStripMenuItem";
             this.yENİToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.yENİToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.yENİToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yENİToolStripMenuItem.Text = "YENİ";
             // 
             // aÇToolStripMenuItem
             // 
             this.aÇToolStripMenuItem.Name = "aÇToolStripMenuItem";
             this.aÇToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.aÇToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.aÇToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aÇToolStripMenuItem.Text = "AÇ";
+            this.aÇToolStripMenuItem.Click += new System.EventHandler(this.aÇToolStripMenuItem_Click);
             // 
             // kAYDETToolStripMenuItem
             // 
             this.kAYDETToolStripMenuItem.Name = "kAYDETToolStripMenuItem";
             this.kAYDETToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.kAYDETToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.kAYDETToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kAYDETToolStripMenuItem.Text = "KAYDET";
+            this.kAYDETToolStripMenuItem.Click += new System.EventHandler(this.kAYDETToolStripMenuItem_Click);
             // 
             // yAZDIRToolStripMenuItem
             // 
             this.yAZDIRToolStripMenuItem.Name = "yAZDIRToolStripMenuItem";
             this.yAZDIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yAZDIRToolStripMenuItem.Text = "YAZDIR";
             // 
             // toolStripMenuItem2
@@ -187,7 +190,7 @@ namespace U5_Uyg9
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 344);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtEditor);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.contextMenuStrip1.ResumeLayout(false);
@@ -200,7 +203,7 @@ namespace U5_Uyg9
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtEditor;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem yENİToolStripMenuItem;
