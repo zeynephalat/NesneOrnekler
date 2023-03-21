@@ -52,5 +52,14 @@ namespace U5_Uyg9
         {
             richTextBox1.Cut();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            DialogResult cevap = MessageBox.Show("Bu dosyayı silmek istediğinize emin misiniz?", "dosya sil", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (cevap==DialogResult.Yes)
+            {
+                MessageBox.Show("çıkıs yapıldı");
+            }
+        }
     }
 }

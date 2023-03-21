@@ -16,5 +16,15 @@ namespace U5_Uyg7
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

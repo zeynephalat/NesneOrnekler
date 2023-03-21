@@ -31,15 +31,15 @@ namespace U5_Uyg7
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.yENİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aÇToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kAYDETToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yAZDIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.kESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kOPYALAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yAPIŞTIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,22 +65,7 @@ namespace U5_Uyg7
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(56, 20);
             this.toolStripMenuItem1.Text = "DOSYA";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kESToolStripMenuItem,
-            this.kOPYALAToolStripMenuItem,
-            this.yAPIŞTIRToolStripMenuItem});
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(57, 20);
-            this.toolStripMenuItem2.Text = "DÜZEN";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(46, 20);
-            this.toolStripMenuItem3.Text = "ÇIKIŞ";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // yENİToolStripMenuItem
             // 
@@ -110,12 +95,23 @@ namespace U5_Uyg7
             this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yAZDIRToolStripMenuItem.Text = "YAZDIR";
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kESToolStripMenuItem,
+            this.kOPYALAToolStripMenuItem,
+            this.yAPIŞTIRToolStripMenuItem});
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(57, 20);
+            this.toolStripMenuItem2.Text = "DÜZEN";
+            // 
             // kESToolStripMenuItem
             // 
             this.kESToolStripMenuItem.Name = "kESToolStripMenuItem";
             this.kESToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.kESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kESToolStripMenuItem.Text = "KES";
+            this.kESToolStripMenuItem.Click += new System.EventHandler(this.kESToolStripMenuItem_Click);
             // 
             // kOPYALAToolStripMenuItem
             // 
@@ -130,6 +126,12 @@ namespace U5_Uyg7
             this.yAPIŞTIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.yAPIŞTIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yAPIŞTIRToolStripMenuItem.Text = "YAPIŞTIR";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(46, 20);
+            this.toolStripMenuItem3.Text = "ÇIKIŞ";
             // 
             // Form1
             // 
