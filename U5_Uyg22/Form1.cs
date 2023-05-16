@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections;İ
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +17,7 @@ namespace U5_Uyg22
         {
             InitializeComponent();
         }
-        .
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
