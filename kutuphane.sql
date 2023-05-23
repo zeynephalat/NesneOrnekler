@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `kitap_turleri` (
   `tur_id` tinyint NOT NULL AUTO_INCREMENT,
   `tur_adi` varchar(40) DEFAULT '0',
   PRIMARY KEY (`tur_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- kutuphane.kitap_turleri: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `kitap_turleri`;
