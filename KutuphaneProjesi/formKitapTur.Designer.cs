@@ -47,19 +47,20 @@ namespace KutuphaneProjesi
             this.gridKitapTur.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gridKitapTur.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridKitapTur.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.gridKitapTur.Location = new System.Drawing.Point(35, 215);
+            this.gridKitapTur.Location = new System.Drawing.Point(12, 200);
             this.gridKitapTur.Name = "gridKitapTur";
             this.gridKitapTur.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridKitapTur.Size = new System.Drawing.Size(352, 217);
+            this.gridKitapTur.Size = new System.Drawing.Size(410, 249);
             this.gridKitapTur.TabIndex = 6;
+            this.gridKitapTur.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridKitapTur_CellClick);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.txtTurAdi);
-            this.groupBox2.Location = new System.Drawing.Point(35, 27);
+            this.groupBox2.Location = new System.Drawing.Point(16, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(352, 88);
+            this.groupBox2.Size = new System.Drawing.Size(406, 72);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Arama";
@@ -85,9 +86,9 @@ namespace KutuphaneProjesi
             this.groupBox3.Controls.Add(this.btnGuncelle);
             this.groupBox3.Controls.Add(this.btnSil);
             this.groupBox3.Controls.Add(this.btnKaydet);
-            this.groupBox3.Location = new System.Drawing.Point(35, 121);
+            this.groupBox3.Location = new System.Drawing.Point(16, 106);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(352, 88);
+            this.groupBox3.Size = new System.Drawing.Size(406, 88);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "İşlemler";
@@ -104,6 +105,7 @@ namespace KutuphaneProjesi
             this.btnGuncelle.Text = "GÜNCELLE";
             this.btnGuncelle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -117,6 +119,7 @@ namespace KutuphaneProjesi
             this.btnSil.Text = "SİL";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnKaydet
             // 
@@ -130,12 +133,13 @@ namespace KutuphaneProjesi
             this.btnKaydet.Text = "KAYDET";
             this.btnKaydet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // formKitapTur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 449);
+            this.ClientSize = new System.Drawing.Size(434, 461);
             this.Controls.Add(this.gridKitapTur);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);

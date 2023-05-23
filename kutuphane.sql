@@ -47,6 +47,16 @@ CREATE TABLE IF NOT EXISTS `kitap_turleri` (
 -- kutuphane.kitap_turleri: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `kitap_turleri`;
 /*!40000 ALTER TABLE `kitap_turleri` DISABLE KEYS */;
+INSERT INTO `kitap_turleri` (`tur_id`, `tur_adi`) VALUES
+	(2, ''),
+	(3, 'yere yakın yıldızlara uzak'),
+	(5, 'güneşi söndürmem gerek'),
+	(6, 'karantina'),
+	(7, 'sokak nöbetcileri'),
+	(8, 'yaralasar'),
+	(9, 'gece yarısı kütüphanesi'),
+	(10, 'tutunamayanlar'),
+	(11, 'boş');
 /*!40000 ALTER TABLE `kitap_turleri` ENABLE KEYS */;
 
 -- tablo yapısı dökülüyor kutuphane.odunc_kitaplar
@@ -82,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `ogrenciler` (
   PRIMARY KEY (`ogrenci_no`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- kutuphane.ogrenciler: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
+-- kutuphane.ogrenciler: ~2 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `ogrenciler`;
 /*!40000 ALTER TABLE `ogrenciler` DISABLE KEYS */;
 INSERT INTO `ogrenciler` (`ogrenci_no`, `ad`, `soyad`, `sinif`, `cinsiyet`, `telefon`) VALUES
