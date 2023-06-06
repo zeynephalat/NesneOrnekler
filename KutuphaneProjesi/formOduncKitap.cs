@@ -16,5 +16,10 @@ namespace KutuphaneProjesi
         {
             InitializeComponent();
         }
+
+        private void btnKitapVer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
